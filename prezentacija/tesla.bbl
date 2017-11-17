@@ -1,0 +1,83 @@
+\begin{thebibliography}{}
+
+\bibitem[Abadi et~al., 2015]{tensorflow}
+Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C., Corrado,
+  G.~S., Davis, A., Dean, J., Devin, M., Ghemawat, S., Goodfellow, I., Harp,
+  A., Irving, G., Isard, M., Jia, Y., Jozefowicz, R., Kaiser, L., Kudlur, M.,
+  Levenberg, J., Man\'{e}, D., Monga, R., Moore, S., Murray, D., Olah, C.,
+  Schuster, M., Shlens, J., Steiner, B., Sutskever, I., Talwar, K., Tucker, P.,
+  Vanhoucke, V., Vasudevan, V., Vi\'{e}gas, F., Vinyals, O., Warden, P.,
+  Wattenberg, M., Wicke, M., Yu, Y., and Zheng, X. (2015).
+\newblock {TensorFlow}: Large-scale machine learning on heterogeneous systems.
+\newblock Software available from tensorflow.org.
+
+\bibitem[{Andrychowicz} et~al., 2016]{learning-to-learn}
+{Andrychowicz}, M., {Denil}, M., {Gomez}, S., {Hoffman}, M.~W., {Pfau}, D.,
+  {Schaul}, T., {Shillingford}, B., and {de Freitas}, N. (2016).
+\newblock {Learning to learn by gradient descent by gradient descent}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[Bishop, 2006]{Bishop}
+Bishop, C.~M. (2006).
+\newblock {\em Pattern Recognition and Machine Learning (Information Science
+  and Statistics)}.
+\newblock Springer-Verlag New York, Inc., Secaucus, NJ, USA.
+
+\bibitem[Chollet et~al., 2015]{keras}
+Chollet, F. et~al. (2015).
+\newblock Keras.
+\newblock \url{https://github.com/fchollet/keras}.
+
+\bibitem[Fielding, 2000]{rest}
+Fielding, R.~T. (2000).
+\newblock {\em Architectural Styles and the Design of Network-based Software
+  Architectures}.
+\newblock PhD thesis.
+\newblock AAI9980887.
+
+\bibitem[{Girshick} et~al., 2013]{r-cnn}
+{Girshick}, R., {Donahue}, J., {Darrell}, T., and {Malik}, J. (2013).
+\newblock {Rich feature hierarchies for accurate object detection and semantic
+  segmentation}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[Goodfellow et~al., 2016]{Goodfellow}
+Goodfellow, I., Bengio, Y., and Courville, A. (2016).
+\newblock {\em Deep Learning}.
+\newblock MIT Press.
+\newblock \url{http://www.deeplearningbook.org}.
+
+\bibitem[He et~al., 2015]{microsoftCovnet}
+He, K., Zhang, X., Ren, S., and Sun, J. (2015).
+\newblock Deep residual learning for image recognition.
+\newblock {\em CoRR}, abs/1512.03385.
+
+\bibitem[Karpathy and Li, 2014]{cnn-rnn-semantic}
+Karpathy, A. and Li, F. (2014).
+\newblock Deep visual-semantic alignments for generating image descriptions.
+\newblock {\em CoRR}, abs/1412.2306.
+
+\bibitem[Kingma and Ba, 2014]{adam}
+Kingma, D.~P. and Ba, J. (2014).
+\newblock Adam: {A} method for stochastic optimization.
+\newblock {\em CoRR}, abs/1412.6980.
+
+\bibitem[Krizhevsky et~al., 2012]{krizhevsky}
+Krizhevsky, A., Sutskever, I., and Hinton, G.~E. (2012).
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In Pereira, F., Burges, C. J.~C., Bottou, L., and Weinberger, K.~Q.,
+  editors, {\em Advances in Neural Information Processing Systems 25}, pages
+  1097--1105. Curran Associates, Inc.
+
+\bibitem[Murphy, 2012]{Murphy}
+Murphy, K.~P. (2012).
+\newblock {\em Machine Learning: A Probabilistic Perspective}.
+\newblock The MIT Press.
+
+\bibitem[Srivastava et~al., 2014]{dropout}
+Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I., and Salakhutdinov,
+  R. (2014).
+\newblock Dropout: A simple way to prevent neural networks from overfitting.
+\newblock {\em J. Mach. Learn. Res.}, 15(1):1929--1958.
+
+\end{thebibliography}

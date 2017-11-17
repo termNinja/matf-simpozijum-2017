@@ -1,0 +1,11 @@
+*.vrb
+*.toc
+*.snm
+*.out
+*.nav
+*.log
+*.blg
+*.aux
+*.aux
+*.swp
+_minted*

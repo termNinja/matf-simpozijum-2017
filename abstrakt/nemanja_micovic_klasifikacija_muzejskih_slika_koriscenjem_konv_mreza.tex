@@ -1,0 +1,91 @@
+% Simpozijum Matematika i primene
+% Requires Latex2e!
+\documentclass{simposium_srb_lat}
+\usepackage[serbian]{babel}
+
+
+\volume{,Vol. VIII}  %%%%%% UPISUJE UREDNIK
+\issue{(1)}        %%%%%% UPISUJE UREDNIK
+\pubyear{2017}     %%%%%% UPISUJE UREDNIK
+\firstpage{1}      %%%%%% UPISUJE UREDNIK
+\lastpage{12}      %%%%%% UPISUJE UREDNIK
+
+%%%%%% NA OVOM MESTU UKLJUCUJETE PAKETE
+%%%%%% Na primer: \usepackage{gclc}
+
+%%%%%% NA OVOM MESTU DEFINISETE LATEX KOMANDE
+%%%%%% Na primer: \newcommand{\const}{\mathop{\mathrm{const}}}
+
+\begin{document}
+\begin{frontmatter}
+\vspace{20pt}
+
+\title{Klasifikacija muzejskih slika kori\v s\' cenjem dubokih konvolutivnih neuronskih mre\v za}
+%\title{Primena konvolutivnih neuronskih mre\v za na klasifikaciju muzejskih fotografija}
+
+
+\author{\textbf{\fnms{Nemanja} \snm{Mi\' covi\' c}}}
+\address{Matemati\v cki fakultet, Studentski Trg 16\\
+\email{nemanja\_micovic@matf.bg.ac.rs}
+}
+%\author{\textbf{\fnms{Ime2} \snm{Prezime2}}}
+%\address{Naziv i adresa institucije\\
+%\email{ime@email.adresa}
+%}
+\runningauthor{N.Mi\' covi\' c}
+\runningtitle{Dodati posle}
+
+\received{\smonth{Jul} \syear{2013}}   %%%%%% UPISUJE UREDNIK
+\revised{\smonth{Jul} \syear{2013}}    %%%%%% UPISUJE UREDNIK
+\accepted{\smonth{Jul} \syear{2013}}   %%%%%% UPISUJE UREDNIK
+
+\maketitle
+
+\renewcommand{\abstractname}{Apstrakt.}
+\renewcommand{\keywordsname}{Klju\v cne re\v ci}
+
+
+\begin{abstract}
+Duboke konvolutivne mre\v ze \cite{1} su postigle niz zna\v cajnih rezultata na polju klasifikacije
+slika ali i obrade signala. Microsoft je 2015. prikazao duboku konvolutivnu mre\v zu koja na
+ImageNet skupu instanci ostvarila gre\v sku od 3.6\%
+(radi pore\dj enja, gre\v ska koju \v cine ljudi je oko 5-10\%) \cite{2}.
+Konvolutivne mre\v ze imaju primene u analizi video snimaka, obradi prirodnih jezika,
+kompjuterske vizije, a kori\v s\' cene su i u sistemu AlphaGo \cite{3}.
+
+Rad prezentuje sistem razvijen za industrijske potrebe koji korisnicima
+omogu\' cava da mobilnom aplikacijom fotografi\v su slike u muzeju i dobiju tekstuelni
+i audio opis. Za te potrebe je razvijena duboka konvolutivna neuronska mre\v za
+koja je trenirana na slikama u muzeju na kojima je ostvarila zna\v cajne rezultate.
+Rad ilustruje proces biranja arhitekture mre\v ze, proces preprocesiranja podataka, generisanje
+novih slika u svrhu pove\' canja broja instanci za trening, ali i kako treniranu mre\v zu postaviti
+na veb i efikasno je koristiti u produkciji.
+
+Dobijena mre\v za je dovoljno precizna, brza ali i robusna u odnosu na fotografije lo\v sijeg kvaliteta,
+promenjenog osvetljenja, druga\v cije pozicije fotografisanja, i pokazala se kao prihvatljiva za primenu
+u muzeju.
+
+\end{abstract}
+\begin{keyword}
+ma\v sinsko u\v cenje; neuronske mre\v ze; duboko u\v cenje.
+\end{keyword}
+\end{frontmatter}
+
+\begin{thebibliography}{99}
+\bibitem{1}
+\textbf{A. Krizhevsky, I. Sutskever, G. E. Hinton} ImageNet Classification with Deep Convolutional Neural Networks. \emph{Advances in Neural Information Processing Systems}, 2012, 25, 1097 - 1105.
+
+\bibitem{2}
+\textbf{K. He, X. Zhang, S. Ren, J. Sun} Deep Residual Learning for Image Recognition. \emph{CoRR}, 2015
+
+\bibitem{3}
+\textbf{D. Silver, A. Huang, C. J. Maddison, A. Guez, L. Sifre, G. van den Driessche, J. Schrittwieser, I. Antonoglou, V. Panneershelvam, M. Lanctot,
+S. Dieleman, D. Grewe, J. Nham, N. Kalchbrenner, I. Sutskever, T. Lillicrap, M. Leach, K. Kavukcuoglu, T. Graepel, D. Hassabis }
+Mastering the game of Go with deep neural networks and tree search. \emph{Nature}, 2016, 529, 484 - 503.
+
+\end{thebibliography}
+
+
+
+
+\end{document}
